@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookSky</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+ 
+<div class="header"> 
+  <nav>
+    <h1>BookSky</h1>
+    <ul>
+      <li><a href="#">Home |</a></li>
+      <li><a href="#">New Page | </a></li>
+      <li><a href="#">Contact </a></li>
+    </ul>
+  </nav>
+</div>
+
+<div class="search">
+  <label for="searchInput" class="visually-hidden">Search</label>
+  <input type="text" id="searchInput" placeholder="Search">
+</div>
+
+<div class="overlay"></div>
+
+<div class="lorum">
+
+    <h2 class="book-title">Book1</h2>
+    <h5 class="book-author">Robert</h5>
+  <p class="book-description">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam at quasi, qui pariatur minus sint quisquam facere enim asperiores esse, odio consequatur rem? Perferendis animi quibusdam consequatur natus ea possimus.
+  </p>
+  <button id="btn1" class="delete-btn">Delete</button>
+
+</div>
+
+<button id="btn2" class="btn add-btn">+</button>
+
+<div class="popup">
+  <h1 class="popup-title">Add Book</h1>
+  <form>
+  <input type="text" placeholder="Book Name" id="bookName">
+  <input type="text" placeholder="Author Name" id="authorName">
+  <textarea placeholder="Description" id="des"></textarea>
+  <button id="addBook" class="add-book-btn">Add Book</button>
+  <button id="closePopup" class="close-popup-btn">Close</button> </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
